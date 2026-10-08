@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bastion Recognition</title>
+        <link rel="icon" type="image/png" href="images/Logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="Scripts/button_changer.js" defer></script>
+        <script src="Scripts/quiz.js" defer></script>
+    </head>
+
+<div class = "grid">
+    <body>
+
+        <header class="header"> 
+
+            <img class="logo" src="images/Logo.png"></img> 
+            <button class="BastionDB_header" onclick="location.href='index.html'"> BastionDB </button> 
+            <button class="BastionGuesser_header" onclick="location.href='Bastion_recognition.html'"> BastionGuesser </button> 
+            <button class="BastionRoutes_header" onclick="location.href='Bastion_Routes.html'"> Bastion Routes </button>
+            <button class="AboutMe_header" onclick="location.href='Aboutme.html'"> About Me </button>
+
+        </header>
+        
+        <hr class="break_top"> </hr>
+
+        <!-- This is a placeholder get a better name -->
+    <div class="text">
+        <h1> BastionGuesser </h1>
+
+        <p> Practice recognizing your Bastion types with this website!</p>
+    </div>
+
+        <div class ="diff_select" id = "diff_select">
+
+            <button class = "Easy" id = "Easy"> Easy </button>
+            <button class = "Medium" id = "Medium"> Medium </button>
+            <button class = "Hard" id = "Hard"> Hard </button>
+
+        </div>
+
+        <div class="Playfield">
+            
+            <img class="Bastion_Recognition_Image" src="images\Bastion_Recognition_Pictures\Placeholder.png" alt="Bastion Recognition Image">
+
+            <div class="Selection_Buttons" id ="Selection_Buttons">
+                <button class="Bridge_Bastion" id="Bridge_Bastion"> Bridge Bastion </button>
+
+                <button class="Treasure_Bastion" id="Treasure_Bastion"> Treasure Bastion </button>
+
+                <button class="Housing_Bastion" id="Housing_Bastion"> Housing Bastion </button>
+
+                <button class="Stables_Bastion" id="Stables_Bastion"> Stables Bastion </button>
+
+            </div>
+        </div>
+
+            <div class="Bastion_Buttons">
+                <button class="Home_Page_bottom" onclick="location.href='index.html'"> Home </button>
+
+                <button class="Bastion_Routes_bottom" onclick="location.href='Bastion_Routes.html'"> Bastion Routes </button>
+            </div>
+    </body>
+</div>
+</html>

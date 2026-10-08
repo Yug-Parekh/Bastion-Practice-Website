@@ -1,0 +1,1229 @@
+
+/* Mostly Universal for all Parts of the Website */
+
+html {
+    background: linear-gradient(#1E1E2E,#16161F);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    font-size: 200%;
+    height: 15%;
+    padding-top: .5%;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.BastionDB_header {
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.BastionGuesser_header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1em;
+    font-size: 70%;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.BastionRoutes_header {
+    display: flex;
+    flex-direction: row;
+    padding-left: .5em;
+    font-size: 70%;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.AboutMe_header {
+    display: flex;
+    flex-direction: row;
+    padding-left: .5em;
+    font-size: 70%;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    height: 3.5%;
+    width: 3.5%;
+    margin-left: 10%;
+    margin-right: .8%;
+    border-radius: 10px;
+}
+
+.break_top {
+    display: flex;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+
+div.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+div.text {
+    display: flex;
+    flex-direction: column;
+}
+
+div.left_side {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+div.home_layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding-left: 2vw;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+div.about_layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding-left: 2vw;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+div.image_home {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.image_about {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 1.25em;
+    font-family: "Inter", sans-serif;
+}
+
+img.Bastion_cycle {
+
+    display: flex;
+    justify-content: center;
+    opacity: 70%;
+    width: 40vw;
+    height: auto;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+
+/* About Me Part of the Page */
+
+img.aboutme_profile {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img.aboutme_profile {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: auto;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    border-radius: 8px;
+    filter:
+        drop-shadow(8px 0 0 rgba(59, 74, 94, 0.7))
+        drop-shadow(-8px 0 0 rgba(59, 74, 94, 0.7))
+        drop-shadow(0 8px 0 rgba(59, 74, 94, 0.7))
+        drop-shadow(0 -8px 0 rgba(59, 74, 94, 0.7));
+}
+
+.About-me-field {
+    background-color: #1b1b3a;
+    border: 1px solid #535357;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.About-me-field p {
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.about-h1 {
+    display: flex;
+    font-size: 3em;
+}
+
+.about-affiliation {
+    font-size: 1em;
+}
+
+/* End of the About me Part of the Website */
+
+button.Bastion_Recognition {
+    background-color: #5853e9; 
+    border: 2px #5853e9;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    height: 8vh;
+    width: 17vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+button.Bastion_Recognition:hover {
+    background-color: #5853e9;
+    color: #ffffff;
+    box-shadow: 0 0 8px #5853e9
+}
+
+button.Bastion_Recognition .chevron-right {
+    width: 3vw;
+    height: 3vw;
+}
+
+button.Bastion_Recognition .btn-text-default,
+button.Bastion_Recognition .btn-text-hover {
+    display: block;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    font-size: inherit;
+    color: inherit;
+}
+
+button.Bastion_Recognition .btn-text-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1em;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+button.Bastion_Recognition:hover .btn-text-default {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+button.Bastion_Recognition:hover .btn-text-hover {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+button.Bastion_Routes {
+    background-color: #5853e9; 
+    border: 2px #5853e9;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    height: 8vh;
+    width: 15vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button.Bastion_Routes:hover {
+    background-color: #5853e9;
+    color: #ffffff;
+    box-shadow: 0 0 8px #5853e9
+}
+
+button.Bastion_Routes_bottom {
+    background-color: #5853e9; 
+    border: 2px solid #5853e9;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    height: 8vh;
+    width: 40vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: .5em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button.Bastion_Routes_bottom:hover {
+    background-color: #5853e9;
+    color: #ffffff;
+    box-shadow: 0 0 8px #5853e9
+}
+
+button.Home_Page_bottom {
+    background-color: #5853e9; 
+    border: 2px solid #5853e9;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    height: 8vh;
+    width: 40vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: .5em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button.Home_Page_bottom:hover {
+    background-color: #5853e9;
+    color: #ffffff;
+    box-shadow: 0 0 8px #5853e9
+}
+
+button.Bastion_Recognition_bottom {
+    background-color: #5853e9; 
+    border: 2px solid #5853e9;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    height: 8vh;
+    width: 40vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: .5em;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button.Bastion_Recognition_bottom:hover {
+    background-color: #5853e9;
+    color: #ffffff;
+    box-shadow: 0 0 8px #5853e9
+}
+
+div.Bastion_Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+/* Bastion Recognition Part of the Website */
+
+div.diff_select {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+button.Easy {
+    width: 20%;
+    padding: 5px;
+    background-color: #1b1b3a;
+    border: 2px round #000000;
+    border-radius: 8px;
+    color: white;
+}
+
+button.Medium {
+    width: 20%;
+    padding: 5px;
+    background-color: #1b1b3a;
+    border: 2px round #000000;
+    border-radius: 8px;
+    color: white;
+}
+
+button.Hard {
+    width: 20%;
+    padding: 5px;
+    background-color: #1b1b3a;
+    border: 2px round #000000;
+    border-radius: 8px;
+    color: white;
+}
+
+img.Bastion_Recognition_Image {
+    background-color: #252627;
+    display: block;
+    border-radius: 25px;
+    margin: auto;
+    padding-top: 1%;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: pixelated;
+}
+
+div.Playfield {
+    background-color: #252627;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 2px #323334;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 102%;
+    margin: 0 auto;
+}
+
+div.Selection_Buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 21%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+p.Score {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* All Bridge Related Buttons */
+
+button.Bridge_Bastion {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Left_Single_Triple {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Left_Single_Triple::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Bridge_Formation_Back/Left_Triple_Bridge.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Double_Triple {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Double_Triple::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Bridge_Formation_Back/Double_Triple_Bridge.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Right_Single_Triple {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Right_Single_Triple::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Bridge_Formation_Back/Right_Triple_Bridge.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Double_Single {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Double_Single::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Bridge_Formation_Back/Double_Single_Bridge.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Bridge_Bastion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Bridge_Bastion_Back.webp");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+/* All Treasure Related Buttons */
+
+button.Treasure_Bastion {
+    position: relative;
+    isolation: isolate;
+    background-color: #333436; 
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Treasure_Bastion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Treasure_Bastion_Back.png");
+    background-size: cover;
+    opacity: 0.6;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+/* All Housing Related Buttons */
+
+button.Housing_Bastion {
+    position: relative;
+    isolation: isolate;
+    background-color: #333436; 
+    border: 2px solid #000000;
+    border-radius: 25px;;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-right: 15px;;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Left_Single_Housing {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+button.Left_Single_Housing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Housing_Formation_Back/Left_Single.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Left_Ruins_Housing{
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 10vh;
+}
+
+button.Left_Ruins_Housing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Housing_Formation_Back/Left_Ruins.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Double_Triple_Housing {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 197%;
+    height: 10vh;
+}
+
+button.Double_Triple_Housing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Housing_Formation_Back/Double_Triple.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+
+button.Housing_Bastion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Housing_Bastion_Back.png");
+    background-size: cover;
+    opacity: 0.6;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+/* Quiz answer glow feedback */
+button.correct {
+    box-shadow: 0 0 8px 2px #00ff00;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+button.incorrect {
+    box-shadow: 0 0 8px 2px #ff0000;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* All Stables Related Buttons */
+
+button.Stables_Bastion {
+    position: relative;
+    isolation: isolate;
+    background-color: #333436; 
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+button.Stables_Bastion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Stables_Bastion_Back.png");
+    background-size: cover;
+    opacity: 0.6;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Triple_Stables {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 4px 2px;
+    width: 100%;
+    height: 150%;
+}
+
+button.Triple_Stables::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Stables_Formation_Back/Triple.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Single_Stables {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 4px 2px;
+    width: auto;
+    height: auto;
+}
+
+button.Single_Stables::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Stables_Formation_Back/Single.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+div.Stables_Button_Grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 21%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7px;
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+    justify-items: center;
+    align-items: center;
+}
+
+button.Lantern_Stables {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 4px 2px;
+    width: auto;
+    height: auto;
+}
+
+button.Lantern_Stables::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Bastion_Recognition_Pictures/Background_Pics/Stables_Formation_Back/Lantern.png");
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+button.Submit_Stables {
+    position: relative;
+    isolation: isolate;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2vw;
+    margin-left: 8px;
+    width: 390%;
+    height: auto;
+}
+
+button.Submit_Stables::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+p.Score {
+    text-align: left;
+}
+
+/* Bastion Routes Part of the Website */
+
+.search-filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#routeSearch {
+    flex: 1;
+    min-width: 200px;
+    max-width: 500px;
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: 1px solid #535357;
+    background-color: #1b1b3a;
+    color: #ffffff;
+    outline: none;
+}
+
+#routeSearch:focus {
+    border-color: #5853e9;
+    box-shadow: 0 0 8px rgba(88, 83, 233, 0.4);
+}
+
+.filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #535357;
+    border-radius: 8px;
+    background-color: #1b1b3a;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.filter-btn:hover {
+    border-color: #5853e9;
+    background-color: #24244a;
+}
+
+.filter-btn:focus {
+    outline: none;
+    border-color: #5853e9;
+    box-shadow: 0 0 8px rgba(88, 83, 233, 0.4);
+}
+
+.filter-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    background-color: #1b1b3a;
+    border: 1px solid #535357;
+    border-radius: 8px;
+    padding: 16px;
+    min-width: 200px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.filter-dropdown.open {
+    display: flex;
+}
+
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #a0aec0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filter-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95em;
+    color: #e2e8f0;
+    transition: color 0.2s ease;
+}
+
+.filter-options label:hover {
+    color: #5853e9;
+}
+
+.filter-options input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #5853e9;
+    cursor: pointer;
+}
+
+.routes-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    width: 100%;
+}
+
+.routes-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 1;
+    min-width: 0;
+}
+
+.Route {
+    background: #24243A;
+    color: #E2E8F0;
+    border-radius: 1em;
+    border: .25px solid #33334D;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.Route.Active {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: .2em;
+}
+
+.route_title {
+    font-size: 1.4em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex: 1 0 1%;
+}
+
+.bastion_type {
+    font-size: .95em;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+
+.route_text {
+    font-size: 1.1em;
+    text-align: left;
+    margin: 0.5em 0.5em 0;
+    display: none;
+}
+
+.route-link {
+    display: flex;
+    color: #94A3B8;
+    text-decoration: none;
+}
+
+.route-link:link {
+    display: flex;
+    color: #94A3B8;
+    text-decoration: none;
+}
+
+.route-link:visited {
+    display: flex;
+    color: #94A3B8;
+    text-decoration: none;
+}
+
+.route-link:hover {
+    display: flex;
+    color: #F5C542;
+    text-decoration: none;
+}
+
+.route-img {
+    border: 2px solid #33334D;
+    border-radius: 5px;
+    display: flex;
+    width: 20.8vw;
+    height: auto;
+    padding: 2px;
+}
+
+.Route.Active .route_text {
+    display: block;
+}
+
+i {
+    font-size: 2em;
+}
+
+.Route_Toggle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font: 1.5em;
+    background: #16161F;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    transition: 0.2s ease-in-out;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.Route_Toggle i:hover {
+    transform: scale(1.05);
+}
+
+.Route_Toggle .bx-x {
+    display: none;
+}
+
+.Route.Active .Route_Toggle .bx-x {
+    display: block;
+}
+
+.Route_Toggle .bx-chevron-down {
+    display: block;
+}
+
+.Route.Active .Route_Toggle .bx-chevron-down {
+    display: none;
+}
+
+.Route.Active .Route_Toggle {
+    background-color: #b3000086;
+}

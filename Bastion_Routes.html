@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bastion Routes</title>
+        <link rel="icon" type="image/png" href="images/Logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="Scripts/Route_Expander.js" defer></script>
+        <script src="Scripts/youtube_embed.js" defer></script>
+        <script src="Scripts/route_search.js" defer></script>
+    </head>
+
+    <body>
+
+        <header class="header"> 
+
+            <img class="logo" src="images/Logo.png"></img> 
+            <button class="BastionDB_header" onclick="location.href='index.html'"> BastionDB </button> 
+            <button class="BastionGuesser_header" onclick="location.href='Bastion_recognition.html'"> BastionGuesser </button>
+            <button class="BastionRoutes_header" onclick="location.href='Bastion_Routes.html'"> Bastion Routes </button>
+            <button class="AboutMe_header" onclick="location.href='Aboutme.html'"> About Me </button>
+
+        </header>
+
+        <hr class="break_top"> </hr>
+
+        <!-- This is a placeholder get a better name -->
+        <h1> Bastion Routes </h1>
+
+        <p> This part of the website has a catalog of every Bastion route you could need including some popular variations!</p>
+
+        <div class="search-filter-bar">
+            <input type="text" id="routeSearch" placeholder="Search routes...">
+            <button id="filterBtn" class="filter-btn" aria-label="Filter routes">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/>
+                </svg>
+            </button>
+            <div id="filterDropdown" class="filter-dropdown">
+                <div class="filter-section">
+                    <label>Type</label>
+                    <div class="filter-options">
+                        <label><input type="checkbox" value="bridge"> Bridge</label>
+                        <label><input type="checkbox" value="housing"> Housing</label>
+                        <label><input type="checkbox" value="treasure"> Treasure</label>
+                        <label><input type="checkbox" value="stables"> Stables</label>
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <label>Difficulty</label>
+                    <div class="filter-options">
+                        <label><input type="checkbox" value="easy"> Easy</label>
+                        <label><input type="checkbox" value="medium"> Medium</label>
+                        <label><input type="checkbox" value="hard"> Hard</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="routes-grid">
+            <div class="routes-column">
+                <div class="Route" data-type="bridge" data-difficulty="easy">
+                    <div class="route_title"> Donkey Kong (DK) Route</div>
+                    <div class="bastion_type"> Bridge Bastion </div>
+                    <button class="Route_Toggle"><i class='bx bx-chevron-down'></i><i class='bx bx-x'></i></button>
+                    <div class="route_text">
+                        A route for when the left rampart is a triple.
+                    </br>
+                </br>
+                        <a class="route-link" href=""> Video of the route </a>
+            </br>
+                        <img class="route-img" src="images/Bastion_Route_Pictures/Bridge_Bastion/DK_Pic.png"> </img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="routes-column">
+                <div class="Route" data-type="housing" data-difficulty="medium">
+                    <div class="route_title"> Manhunt Route </div>
+                    <div class="bastion_type"> Housing Bastion </div>
+                    <button class="Route_Toggle"><i class='bx bx-chevron-down'></i><i class='bx bx-x'></i></button>
+                    <div class="route_text">
+                        A route that is used when the bottom does not have lava and its easier to enter through than the top. 
+                        </br>
+                </br>
+                        <a class="route-link" href=""> Video of the route </a>
+            </br>
+            </br>
+                        <img class="route-img" src="images/Bastion_Route_Pictures/Housing_Bastion/Manhunt_pic.png"> </img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="routes-column">
+                <div class="Route" data-type="treasure" data-difficulty="hard">
+                    <div class="route_title"> Boomer Route </div>
+                    <div class="bastion_type"> Treasure Bastion </div>
+                    <button class="Route_Toggle"><i class='bx bx-chevron-down'></i><i class='bx bx-x'></i></button>
+                    <div class="route_text"> 
+                        A route that prioritizes your being safety rather than the piglin count (best to learn as your first treasure route).
+                        </br>
+                </br>
+                        <a class="route-link" href=""> Video of the route </a>
+            </br>
+            </br>
+                        <img class="route-img" src="images/Bastion_Route_Pictures/Treasure_Bastion/Boomer_pic.png"> </img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="routes-column">
+                <div class="Route" data-type="stables" data-difficulty="easy">
+                    <div class="route_title"> Double Triple Route </div>
+                    <div class="bastion_type"> Stables Bastion </div>
+                    <button class="Route_Toggle"><i class='bx bx-chevron-down'></i><i class='bx bx-x'></i></button>
+                    <div class="route_text"> 
+                        A route that is used when there are two triple ramparts and one single or lantern rampart.
+                        </br>
+                </br>
+                        <a class="route-link" href=""> Video of the route </a>
+            </br>
+            </br>
+                        <img class="route-img" src="images/Bastion_Route_Pictures/Stables_Bastion/Double_Triple_pic.png"> </img>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Bastion_Buttons">
+            <button class="Home_Page_bottom" onclick="location.href='index.html'"> Home </button>
+            
+            <button class="Bastion_Recognition_bottom" onclick="location.href='Bastion_Recognition.html'"> BastionGuesser </button>
+        </div>
+
+    </body>
+</html>

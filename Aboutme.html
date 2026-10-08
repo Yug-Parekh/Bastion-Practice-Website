@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bastion Practice Website</title>
+        <link rel="icon" type="image/png" class="logo" href="images/Logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script>
+            import { createIcons, ChevronRight } from 'lucide';
+
+            createIcons({
+            icons: {
+                ChevronRight
+            }
+            });
+            </script>
+        <script src="Scripts/Image_Cycler.js" defer></script>
+    </head>
+
+<div class = "grid">
+    <body>
+
+        <header class="header"> 
+
+            <img class="logo" src="images/Logo.png"></img> 
+            <button class="BastionDB_header" onclick="location.href='index.html'"> BastionDB </button> 
+            <button class="BastionGuesser_header" onclick="location.href='Bastion_recognition.html'"> BastionGuesser </button>
+            <button class="BastionRoutes_header" onclick="location.href='Bastion_Routes.html'"> Bastion Routes </button>
+            <button class="AboutMe_header" onclick="location.href='Aboutme.html'"> About Me </button>
+        
+        </header>
+
+        <hr class="break_top"> </hr>
+
+        <div class="about_layout">
+        <div class="left_side">
+            <div class="text">
+
+                <h1 class="about-h1"> About Me </h1>
+
+                <div class="About-me-field">
+
+                    <p> BastionDB is a website that was made for all levels of speedrunners to help them with their bastions (recognition and routing) for completely free. </p>
+                    <p> Inspired by: <a href="https://learnyourfuckinghouses.ch/">Learnyourfuckinghouses</a> made from Yatko's village house database and <a href="https://cryotitan.github.io/bastionguessr/">BastionGuessr</a> made by CryoTitan </p>
+                    <p> Built solely by Azuravale </p>
+
+                </div>
+
+                <p class="about-affiliation"> Not affiliated with Mojang, Microsoft, and MCSR Ranked  </p>
+
+            </div>
+        </div>
+        <div class="image_about">
+            <div class="profile_border">
+                <img class="aboutme_profile" src="images/profile_aboutme.png" alt=" my Profile Pic">
+            </div>
+        </div>
+    </div>
+
+    </body>
+</div>
+</html>
