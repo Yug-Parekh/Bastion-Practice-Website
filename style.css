@@ -392,31 +392,34 @@ button.Easy {
     width: 20%;
     padding: 5px;
     background-color: #1b1b3a;
-    border: 2px round #000000;
+    border: 2px round;
+    border-color: #35354d;
     border-radius: 8px;
-    color: white;
+    color: #E2E8F0;
 }
 
 button.Medium {
     width: 20%;
     padding: 5px;
     background-color: #1b1b3a;
-    border: 2px round #000000;
+    border: 2px round;
+    border-color: #35354d;
     border-radius: 8px;
-    color: white;
+    color: #E2E8F0;
 }
 
 button.Hard {
     width: 20%;
     padding: 5px;
     background-color: #1b1b3a;
-    border: 2px round #000000;
+    border: 2px round;
+    border-color: #35354d;
     border-radius: 8px;
-    color: white;
+    color: #E2E8F0;
 }
 
 img.Bastion_Recognition_Image {
-    background-color: #252627;
+    background-color: #24243A;
     display: block;
     border-radius: 25px;
     margin: auto;
@@ -429,10 +432,10 @@ img.Bastion_Recognition_Image {
 }
 
 div.Playfield {
-    background-color: #252627;
+    background-color: #24243A;
     border: 2px solid #000000;
     border-radius: 25px;
-    box-shadow: 0px 0px 5px 2px #323334;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     width: 55%;
@@ -893,21 +896,6 @@ button.Single_Stables::before {
     z-index: -1;
 }
 
-div.Stables_Button_Grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 0 21%;
-    justify-content: center;
-    align-items: center;
-    padding-right: 7px;
-    gap: 20px;
-    width: 80%;
-    margin: 20px auto;
-    justify-items: center;
-    align-items: center;
-}
-
 button.Lantern_Stables {
     position: relative;
     isolation: isolate;
@@ -938,6 +926,42 @@ button.Lantern_Stables::before {
     z-index: -1;
 }
 
+.Stables_Dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    min-width: 160px;
+    background-color: #1b1b3a;
+    border: 1px solid #535357;
+    border-radius: 8px;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+button.Stables_Menu_Item {
+    display: block;
+    width: 100%;
+    padding: 8px 14px;
+    background-color: #1b1b3a;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #2d2d4a;
+    text-align: left;
+    font-size: 0.9vw;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.Stables_Menu_Item:last-child {
+    border-bottom: none;
+}
+
+button.Stables_Menu_Item:hover {
+    background-color: #5853e9;
+}
+
 button.Submit_Stables {
     position: relative;
     isolation: isolate;
@@ -948,10 +972,10 @@ button.Submit_Stables {
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
-    font-size: 2vw;
-    margin-left: 8px;
-    width: 390%;
-    height: auto;
+    font-size: 2.5vw;
+    margin: 4px 2px;
+    width: 30vw;
+    height: 10vh;
 }
 
 button.Submit_Stables::before {
@@ -1090,17 +1114,20 @@ p.Score {
 .routes-grid {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1em;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .routes-column {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    flex: 1;
+    flex: 0 0 calc((100% - 3em) / 4);
     min-width: 0;
+    box-sizing: border-box;
 }
 
 .Route {
@@ -1173,9 +1200,8 @@ p.Score {
     border: 2px solid #33334D;
     border-radius: 5px;
     display: flex;
-    width: 20.8vw;
+    width: 100%;
     height: auto;
-    padding: 2px;
 }
 
 .Route.Active .route_text {

@@ -105,11 +105,12 @@ container.addEventListener('click', function(event) {
     };
 
     const Triple_Menu = document.createElement("div");
-    Triple_Menu.style.cssText = "display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 160px; background: white; border: 1px solid #ccc; z-index: 100;";
+    Triple_Menu.className = "Stables_Dropdown";
+    Triple_Menu.style.cssText = "display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 160px; z-index: 100;";
     ["Triple Triple", "Left Triple", "Double Triple (L-M)", "Middle Triple", "Double Triple (M-R)", "Right Triple", "Double Triple (L-R)","No Triple"].forEach(optionLabel => {
         const menuItem = document.createElement("button");
         menuItem.textContent = optionLabel;
-        menuItem.style.cssText = "display: block; width: 100%; padding: 8px 14px;";
+        menuItem.className = "Stables_Menu_Item";
 
         // store the value of the item clicked
         menuItem.addEventListener('click',function(e) {
@@ -126,11 +127,12 @@ container.addEventListener('click', function(event) {
     });
 
     const Single_Menu = document.createElement("div");
-    Single_Menu.style.cssText = "display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 160px; background: white; border: 1px solid #ccc; z-index: 100;";
+    Single_Menu.className = "Stables_Dropdown";
+    Single_Menu.style.cssText = "display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 160px; z-index: 100;";
     ["Triple Single", "Left Single", "Double Single (L-M)", "Middle Single", "Double Single (M-R)", "Right Single", "Double Single (L-R)","No Single"].forEach(optionLabel => {
         const menuItem = document.createElement("button");
         menuItem.textContent = optionLabel;
-        menuItem.style.cssText = "display: block; width: 100%; padding: 8px 14px;";
+        menuItem.className = "Stables_Menu_Item";
 
         // store the value of the item clicked
         menuItem.addEventListener('click',function(e) {
@@ -147,11 +149,12 @@ container.addEventListener('click', function(event) {
     });
 
     const Lantern_Menu = document.createElement("div");
-    Lantern_Menu.style.cssText = "display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 160px; background: white; border: 1px solid #ccc; z-index: 100;";
+    Lantern_Menu.className = "Stables_Dropdown";
+    Lantern_Menu.style.cssText = "display: none; position: absolute; top: calc(100% + 4px); left: 0; min-width: 160px; z-index: 100;";
     ["Triple Lantern", "Left Lantern", "Double Lantern (L-M)", "Middle Lantern", "Double Lantern (M-R)", "Right Lantern", "Double Lantern (L-R)","No Lantern"].forEach(optionLabel => {
         const menuItem = document.createElement("button");
         menuItem.textContent = optionLabel;
-        menuItem.style.cssText = "display: block; width: 100%; padding: 8px 14px;";
+        menuItem.className = "Stables_Menu_Item";
 
         // store the value of the item clicked
         menuItem.addEventListener('click',function(e) {

@@ -80,6 +80,79 @@ const easy_questions = [
         formation: "Double_Triple_Housing"
 
     },
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Stables_Bastions/Easy/Stables_Pic_Easy.png",
+        type: "Stables_Bastion",
+        formation: "Double Triple (L-M) No Single Right Lantern"
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Stables_Bastions/Easy/Stables_Pic_Easy2.png",
+        type: "Stables_Bastion",
+        formation: "Triple Triple No Single No Lantern"
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Stables_Bastions/Easy/Stables_Pic_Easy3.png",
+        type: "Stables_Bastion",
+        formation: "Right Triple Double Single (L-M) No Lantern"
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Stables_Bastions/Easy/Stables_Pic_Easy4.png",
+        type: "Stables_Bastion",
+        formation: "Right Triple Left Single Middle Lantern"
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Stables_Bastions/Easy/Stables_Pic_Easy5.png",
+        type: "Stables_Bastion",
+        formation: "Double Triple (L-R) Middle Single No Lantern"
+
+    },
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Treasure_Bastions/Easy/Treasure_Pic_Easy.png",
+        type: "Treasure_Bastion",
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Treasure_Bastions/Easy/Treasure_Pic_Easy2.png",
+        type: "Treasure_Bastion",
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Treasure_Bastions/Easy/Treasure_Pic_Easy3.png",
+        type: "Treasure_Bastion",
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Treasure_Bastions/Easy/Treasure_Pic_Easy4.png",
+        type: "Treasure_Bastion",
+
+    },
+
+    {
+
+        image: "images/Bastion_Recognition_Pictures/Treasure_Bastions/Easy/Treasure_Pic_Easy5.png",
+        type: "Treasure_Bastion",
+
+    },
 
 ]
 
@@ -132,40 +205,40 @@ const hard_questions = [
     {
 
         image: "images/Bastion_Recognition_Pictures/Bridge_Bastions/Hard/Bridge_Pic_Hard.png",
-        type: "",
-        formation: "",
+        type: "Bridge_Bastion",
+        formation: "Right_Single_Triple",
 
     },
 
     {
 
         image: "images/Bastion_Recognition_Pictures/Bridge_Bastions/Hard/Bridge_Pic_Hard2.png",
-        type: "",
-        formation: "",
+        type: "Bridge_Bastion",
+        formation: "Left_Single_Triple",
 
     },
 
     {
 
         image: "images/Bastion_Recognition_Pictures/Bridge_Bastions/Hard/Bridge_Pic_Hard3.png",
-        type: "",
-        formation: "",
+        type: "Bridge_Bastion",
+        formation: "Double_Triple",
 
     },
 
     {
 
         image: "images/Bastion_Recognition_Pictures/Bridge_Bastions/Hard/Bridge_Pic_Hard4.png",
-        type: "",
-        formation: "",
+        type: "Bridge_Bastion",
+        formation: "Double_Single",
 
     },
 
     {
 
         image: "images/Bastion_Recognition_Pictures/Bridge_Bastions/Hard/Bridge_Pic_Hard5.png",
-        type: "",
-        formation: "",
+        type: "Bridge_Bastion",
+        formation: "Double_Triple",
 
     },
     
